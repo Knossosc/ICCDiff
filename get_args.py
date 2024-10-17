@@ -37,7 +37,7 @@ def get_args():
     parser.add_argument('--sample_type', type=str, default='generalized')
     parser.add_argument('--skip_type', type=str, default='uniform')
     parser.add_argument('--timesteps', type=int, default=10)
-    parser.add_argument('--test_folder', type=str, default='C:/Users\DELL\Desktop/fix_cl_wave/test')
+    parser.add_argument('--test_folder', type=str, default='./test')
     parser.add_argument('--sampled_dir', type=str, default='./SampledImg/')
 
     args = parser.parse_args()
